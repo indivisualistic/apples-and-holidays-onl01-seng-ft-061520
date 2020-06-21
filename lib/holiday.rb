@@ -62,7 +62,9 @@ def all_supplies_in_holidays(holiday_hash)
      capitalized_holiday = holiday.to_s.split('_').each {|i| i.capitalize!}.join(' ')
      puts "  #{capitalized_holiday}: #{supplies.join(', ')}"
    end
-   
+ end
+ 
+
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
